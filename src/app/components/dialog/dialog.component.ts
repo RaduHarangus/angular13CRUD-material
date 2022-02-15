@@ -12,6 +12,7 @@ export class DialogComponent implements OnInit {
 
   freshnessList = ["Brand New", "Second Hand", "Refurbished"];
   productForm!: FormGroup;
+
   constructor(private formBuilder: FormBuilder,
               private api: ApiService,
               private dialogRef: MatDialogRef<DialogComponent>) { }
@@ -25,6 +26,7 @@ export class DialogComponent implements OnInit {
       comment: ['', Validators.required],
       date: ['', Validators.required]
     });
+
   }
 
   addProduct() {
