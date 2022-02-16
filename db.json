@@ -1,31 +1,13 @@
 {
   "productList": [
     {
-      "productName": "mango",
-      "category": "Vegetables",
-      "freshness": "Second Hand",
-      "price": 20,
-      "comment": "bla bla",
-      "date": "2022-02-14T22:00:00.000Z",
-      "id": 1
-    },
-    {
-      "productName": "nume",
+      "productName": "apple",
       "category": "Fruits",
       "freshness": "Brand New",
-      "price": 111,
-      "comment": "uhu",
-      "date": "2022-02-13T22:00:00.000Z",
-      "id": 2
-    },
-    {
-      "productName": "apple",
-      "category": "Vegetables",
-      "freshness": "Second Hand",
-      "price": 45,
-      "comment": "bla bla",
-      "date": "2022-02-14T22:00:00.000Z",
-      "id": 3
+      "price": 500,
+      "comment": "bla",
+      "date": "2022-02-15T22:00:00.000Z",
+      "id": 1
     }
   ],
   "comments": [
