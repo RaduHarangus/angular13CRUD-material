@@ -29,7 +29,11 @@ export class AppComponent {
   openDialog() {
     this.dialog.open(DialogComponent, {
       width: '30%'
-    });
+    }).afterClosed().subscribe(val => {
+      if (val==='save') {
+        this.getAllProducts();
+      }
+    })
   }
 
   getAllProducts() {
@@ -50,7 +54,11 @@ export class AppComponent {
     this.dialog.open(DialogComponent, {
       width: '30%',
       data: row
-    });
+    }).afterClosed().subscribe(val => {
+      if (val==='update') {
+        this.getAllProducts();
+      }
+    })
   }
 
   applyFilter(event: Event) {

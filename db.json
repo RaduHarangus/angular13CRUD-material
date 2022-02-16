@@ -1,7 +1,7 @@
 {
   "productList": [
     {
-      "productName": "nume",
+      "productName": "mango",
       "category": "Vegetables",
       "freshness": "Second Hand",
       "price": 20,
@@ -22,7 +22,7 @@
       "productName": "apple",
       "category": "Vegetables",
       "freshness": "Second Hand",
-      "price": 20,
+      "price": 45,
       "comment": "bla bla",
       "date": "2022-02-14T22:00:00.000Z",
       "id": 3
