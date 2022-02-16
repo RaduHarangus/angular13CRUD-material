@@ -17,6 +17,15 @@
       "comment": "uhu",
       "date": "2022-02-13T22:00:00.000Z",
       "id": 2
+    },
+    {
+      "productName": "apple",
+      "category": "Vegetables",
+      "freshness": "Second Hand",
+      "price": 20,
+      "comment": "bla bla",
+      "date": "2022-02-14T22:00:00.000Z",
+      "id": 3
     }
   ],
   "comments": [

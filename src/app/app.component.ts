@@ -13,7 +13,7 @@ import { MatTableDataSource } from '@angular/material/table';
 })
 export class AppComponent {
 
-  displayedColumns: string[] = ['productName', 'category', 'date', 'freshness', 'price', 'comment'];
+  displayedColumns: string[] = ['productName', 'category', 'date', 'freshness', 'price', 'comment', 'action'];
   dataSource!: MatTableDataSource<any>;
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -44,6 +44,13 @@ export class AppComponent {
           alert('There was an error trying to fetch the products!' + err);
         }
       })
+  }
+
+  editProduct(row: any) {
+    this.dialog.open(DialogComponent, {
+      width: '30%',
+      data: row
+    });
   }
 
   applyFilter(event: Event) {
